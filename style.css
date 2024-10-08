@@ -1,0 +1,266 @@
+#Nav{
+  color:#d00000;
+}
+
+#Home .custom-btn {
+  background-color: #000000;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #218838;
+  color: #fff; 
+}
+
+#Flavor {
+  margin-bottom: 40px;
+}
+
+.text-border {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+
+#Size, #Global, #Variety {
+  font-size: 55px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d00000;
+}
+
+.v1 {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.v1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+
+#Flavor img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-brown {
+  color: #5C3A30;
+}
+
+@media (max-width: 768px) {
+  #Flavor .col-md-6 {
+    margin-bottom: 20px;
+  }
+
+  #Size, #Global {
+    font-size: 45px; /*for mobile */
+  }
+
+  #v1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+}
+.uniform-size {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.uniform-size:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+#collect {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1cm;
+  background-image: url(asset/cbg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#fav {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1cm;
+  color:#e0e0e0;
+  text-align: center;
+}
+
+#Gallery .card {
+  width: 100%;
+  padding: 20px 0;
+}
+
+#Gallery img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#img1{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+#Product h2 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family:sans-serif ;
+  color: #d00000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#Product .btn-kitkat-primary {
+    background-color: #f60000; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+.custom-muted {
+  color: #D4AFAF !important; /* You can adjust this to any color you prefer */
+}
+
+.text-muted {
+  color: #D4AFAF !important; /* You can adjust this to any color you prefer */
+}
+
+
+.btn-kitkat-primary:hover {
+    background-color: #228fc5; 
+}
+
+.btn-kitkat-info {
+    background-color: #8B5C5D; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-kitkat-info:hover {
+    background-color: #7A4A4B; 
+}
+
+.btn-kitkat-success {
+    background-color: #F2CB05; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-kitkat-success:hover {
+    background-color: #C8A3A3; 
+}
+
+.btn-kitkat-discount {
+    background-color: #F25C05; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-kitkat-discount:hover {
+    background-color: #E89293; 
+}
+#Product .card-body {
+    background-color:#400101; 
+    border: 1px solid #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    background-color: #F9D8D8;
+}
+
+.card-success {
+    background-color: #D4AFAF;
+    color: #fff;
+}
+
+.card-success:hover {
+    background-color: #C8A3A3;
+}
+
+.card-info {
+    background-color: #8B5C5D;
+    color: #fff;
+}
+
+.card-info:hover {
+    background-color: #7A4A4B;
+}
+
+/* Testimonials */
+#reviews {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+#carouselEg {
+  padding: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #d00000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  background-color: #b30000;
+}
+.about-heading {
+  color: #d00000;
+}
+
+.about-subtitle {
+  color: #ffffff;
+}
+
+.about-text {
+  color: #ffffff;
+}
+
+.about-text a {
+  color: #d00000;
+}
+
+.about-text a:hover {
+  color: #b30000;
+}
